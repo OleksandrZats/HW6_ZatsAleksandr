@@ -1,0 +1,55 @@
+* {
+  transition: all 0.1s ease-in;
+  margin: 0;
+  padding: 0;
+
+  font-family: Dosis, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fdde7e;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1280px;
+  height: 691px;
+  padding: 90px 5%;
+  margin: 0 auto;
+}
+
+section > div {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 440px;
+  padding: 30px 100px 46px 100px;
+}
+div > img {
+  margin: 15px auto;
+}
+.price {
+  font-size: 70px;
+  line-height: 88px;
+
+  color: #02995b;
+}
+.description {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #333333;
+}
+.goldCup {
+  height: 510px;
+}
